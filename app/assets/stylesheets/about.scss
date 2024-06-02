@@ -1,3 +1,14 @@
 // Place all the styles related to the About controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.about-show {
+  margin-bottom: 3em;
+  .page-header {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  p {
+    color: rgb(4, 65, 18);
+  }
+}
