@@ -40,6 +40,7 @@
               <%= link_to category.name, category, class: "nav-link" %>
             </li>
             <% end %>
+          
           <%# </ul>
         </li> %>
       </ul>
@@ -65,6 +66,8 @@
           <%= link_to cart_path, class: "nav-link " do %> <%= fa_icon "shopping-cart" %>
           My Cart (<%= cart.size %>) <% end %>
         </li>
+        <li class="nav-item"><%= link_to 'Login', new_session_path, class: "nav-link" %></li>
+        <li class="nav-item"><%= link_to 'Sign Up', new_user_path, class: "nav-link"  %></li>
       </ul>
     </div>
   </div>
